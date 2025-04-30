@@ -92,7 +92,7 @@ docker run -p 3000:3000 --env-file .env roadmap-tracker-api
 After running the app, visit:
 
 ```
-http://localhost:5000/api-docs
+http://localhost:3000/api-docs
 ```
 
 You’ll find:
