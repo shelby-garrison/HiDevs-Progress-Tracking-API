@@ -84,7 +84,7 @@ docker build -t roadmap-tracker-api .
 ```bash
 docker run -p 3000:3000 --env-file .env roadmap-tracker-api
 ```
-
+Service would be running live on port 3000
 ---
 
 ## 📘 API Documentation
