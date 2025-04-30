@@ -133,6 +133,28 @@ POST /api/progress/update
 "updatedAt": "2025-04-30T14:01:45.426Z"
 }
 ```
+## 📊 Example Request (WHEN USER TRIES TO SKIP THE NEXT SEQUENTIAL MODULE IN ROADMAP)
+
+```json
+POST /api/progress/update
+
+{
+  "levelId": 2,
+  "moduleIndex": 2,
+  "completionStatus": true,
+  "timeSpent": 15,
+  "userNotes": "Grasped Prompt Engineering"
+}
+```
+
+## ✅ Response
+
+```json
+{
+    "error": "Invalid module access: you must complete previous modules in order"
+}
+```
+
 
 ---
 
